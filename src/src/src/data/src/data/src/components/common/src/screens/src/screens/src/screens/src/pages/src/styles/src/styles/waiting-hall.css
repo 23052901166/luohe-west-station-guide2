@@ -1,0 +1,61 @@
+@import url('./variables.css');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.waiting-hall {
+  background: var(--bg-blue);
+  color: var(--text-white);
+  height: 100vh;
+  font-family: var(--font-primary);
+  display: flex;
+  flex-direction: column;
+}
+.slogan {
+  text-align: center;
+  padding: 10px;
+}
+.red { color: var(--text-red); font-size: 28px; font-weight: bold; }
+.yellow { color: var(--text-yellow); font-size: 22px; }
+.green { color: var(--text-green); }
+.train-area {
+  display: flex;
+  flex: 1;
+}
+.column {
+  flex: 1;
+  margin: 10px;
+}
+.header, .row {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1.5fr 1fr 1fr 1fr;
+  padding: 6px 10px;
+  border-bottom: var(--divider);
+}
+.header { background: #002244; font-weight: bold; }
+.row:nth-child(odd) { background: #003355; }
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #001122;
+}
+.notice button {
+  margin-left: 10px;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+.nav-btn-group {
+  display: flex;
+  gap: 12px;
+  padding: 8px 16px;
+  background: #001528;
+}
+.nav-btn-group button {
+  padding: 6px 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
