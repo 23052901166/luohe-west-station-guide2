@@ -1,0 +1,59 @@
+@import url('./variables.css');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top-time-bar {
+  background: var(--bg-black);
+  color: var(--text-white);
+  padding: 8px 16px;
+}
+.platform-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 10px;
+  background: var(--bg-black);
+  padding: 10px;
+  flex: 1;
+}
+.platform-card {
+  background: var(--bg-black);
+  color: var(--text-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: var(--divider);
+}
+.info-text {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.train-num {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--text-gold);
+}
+.empty-tip {
+  font-size: 20px;
+  color: #aaa;
+}
+.big-no {
+  font-size: 120px;
+  font-weight: bold;
+  color: var(--text-white);
+}
+.nav-btn-group {
+  display: flex;
+  gap: 12px;
+  padding: 8px 16px;
+  background: #0a0a0a;
+}
+.nav-btn-group button {
+  padding: 6px 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
