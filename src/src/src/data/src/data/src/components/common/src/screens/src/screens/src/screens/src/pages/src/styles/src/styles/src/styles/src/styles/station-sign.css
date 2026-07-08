@@ -1,0 +1,42 @@
+@import url('./variables.css');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.station-sign {
+  background: var(--bg-blue);
+  color: var(--text-white);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-primary);
+  gap: 24px;
+  position: relative;
+}
+.time-top {
+  position: absolute;
+  top: 16px;
+}
+.cn {
+  font-size: 96px;
+  font-weight: bold;
+}
+.en {
+  font-size: 36px;
+  margin-top: 20px;
+  color: var(--text-gray);
+}
+.nav-btn-group {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  gap: 12px;
+}
+.nav-btn-group button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
