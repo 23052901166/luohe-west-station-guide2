@@ -1,0 +1,19 @@
+:root {
+  /* 背景色 */
+  --bg-black: #000000;
+  --bg-blue: #003366;
+  --bg-light: #f5f5f5;
+
+  /* 文字色 */
+  --text-white: #ffffff;
+  --text-red: #ff3333;
+  --text-yellow: #ffff00;
+  --text-green: #00ff00;
+  --text-gold: #ffd700;
+  --text-gray: #cccccc;
+
+  /* 分割线 */
+  --divider: 1px solid #004488;
+  /* 全局字体 */
+  --font-primary: "Microsoft YaHei", sans-serif;
+}
