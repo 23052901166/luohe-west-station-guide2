@@ -1,0 +1,119 @@
+{
+  "Stations": [
+    {
+      "Name": "漯河西站",
+      "WaitingAreas": [
+        {
+          "Name": "一层候车区",
+          "TicketChecks": [
+            {
+              "Id": "a5450902-cdb4-4a51-a066-60d79aeff4ae",
+              "Name": "1A"
+            },
+            {
+              "Id": "5d4ae31e-5d66-43da-a5fe-e4b1dc652fe7",
+              "Name": "1B"
+            },
+            {
+              "Id": "252ae88a-67d9-43b2-b0bd-f605bc80d5fc",
+              "Name": "2A"
+            },
+            {
+              "Id": "3a9009e8-601a-49ca-8fac-c075682fbbe8",
+              "Name": "2B"
+            }
+          ]
+        },
+        {
+          "Name": "二层候车区",
+          "TicketChecks": [
+            {
+              "Id": "ddbbedff-75b2-45a9-af3b-7ddc152ce394",
+              "Name": "3A"
+            },
+            {
+              "Id": "11fd1ed4-dc7e-4f5f-9d77-608fd8886a54",
+              "Name": "3B"
+            },
+            {
+              "Id": "6707a60f-1d8b-483f-a653-4dae1d4f76d2",
+              "Name": "4A"
+            },
+            {
+              "Id": "c0049f8f-e6d4-48fb-807f-130c0eee51f9",
+              "Name": "4B"
+            }
+          ]
+        }
+      ],
+      "TrainStops": [
+        {
+          "Number": "G577",
+          "ArrivalTime": "08:30:00",
+          "DepartureTime": "08:35:00",
+          "Status": "00:00:00",
+          "TicketCheckIds": [
+            "ddbbedff-75b2-45a9-af3b-7ddc152ce394",
+            "11fd1ed4-dc7e-4f5f-9d77-608fd8886a54",
+            "6707a60f-1d8b-483f-a653-4dae1d4f76d2",
+            "c0049f8f-e6d4-48fb-807f-130c0eee51f9"
+          ],
+          "Origin": "洛阳龙门",
+          "Terminal": "上海虹桥",
+          "Platform": "8",
+          "Landmark": "紫色",
+          "Length": 18
+        },
+        {
+          "Number": "G1278",
+          "ArrivalTime": "09:29:00",
+          "DepartureTime": "09:31:00",
+          "Status": "00:00:00",
+          "TicketCheckIds": [
+            "a5450902-cdb4-4a51-a066-60d79aeff4ae",
+            "5d4ae31e-5d66-43da-a5fe-e4b1dc652fe7",
+            "252ae88a-67d9-43b2-b0bd-f605bc80d5fc",
+            "3a9009e8-601a-49ca-8fac-c075682fbbe8"
+          ],
+          "Origin": "武汉",
+          "Terminal": "哈尔滨西",
+          "Platform": "3",
+          "Landmark": "绿色",
+          "Length": 8
+        },
+        {
+          "Number": "G4375",
+          "ArrivalTime": "16:53:00",
+          "DepartureTime": "16:55:00",
+          "Status": "00:03:00",
+          "TicketCheckIds": [
+            "ddbbedff-75b2-45a9-af3b-7ddc152ce394",
+            "11fd1ed4-dc7e-4f5f-9d77-608fd8886a54",
+            "6707a60f-1d8b-483f-a653-4dae1d4f76d2",
+            "c0049f8f-e6d4-48fb-807f-130c0eee51f9"
+          ],
+          "Origin": "成都东",
+          "Terminal": "合肥南",
+          "Platform": "8",
+          "Landmark": "蓝色",
+          "Length": 16
+        }
+      ],
+      "Platforms": [
+        { "Name": "1", "Length": 18 },
+        { "Name": "2", "Length": 18 },
+        { "Name": "3", "Length": 18 },
+        { "Name": "4", "Length": 18 },
+        { "Name": "5", "Length": 18 },
+        { "Name": "6", "Length": 18 },
+        { "Name": "7", "Length": 18 },
+        { "Name": "8", "Length": 18 },
+        { "Name": "9", "Length": 18 },
+        { "Name": "10", "Length": 18 },
+        { "Name": "11", "Length": 18 },
+        { "Name": "12", "Length": 18 }
+      ]
+    }
+  ],
+  "TrainNumbers": []
+}
